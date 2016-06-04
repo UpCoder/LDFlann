@@ -15,5 +15,6 @@ Simple Flann
     <li>
   编译器：Apple LLVM7.0
     </li>
+  </ul>
 <p>Or,you can run in linux or windows.</p>
 <p>Thirdly,you should initialize the environment variable.</p>
