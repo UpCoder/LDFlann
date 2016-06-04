@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LDFlann/main.cpp"
+            timestampString = "486745032.680088"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "main(int argc, const char * argv[])"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LDFlann/lsh_table.h"
+            timestampString = "486721577.316182"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "486"
+            endingLineNumber = "486"
+            landmarkName = "getKey(const unsigned char* feature)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LDFlann/lsh_table.h"
+            timestampString = "486721577.316182"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "429"
+            endingLineNumber = "429"
+            landmarkName = "LshTable(unsigned int feature_size, unsigned int subsignature_size)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LDFlann/lsh_table.h"
+            timestampString = "486721577.316182"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "441"
+            endingLineNumber = "441"
+            landmarkName = "LshTable(unsigned int feature_size, unsigned int subsignature_size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LDFlann::lsh::LshTable&lt;unsigned char&gt;::LshTable(unsigned int, unsigned int)"
+                  moduleName = "LDFlann"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liang/Desktop/LDFlann/LDFlann/lsh_table.h"
+                  timestampString = "486714101.961274"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LDFlann::lsh::LshTable&lt;unsigned char&gt;::LshTable(unsigned int, unsigned int)"
+                  moduleName = "LDFlann"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liang/Desktop/LDFlann/LDFlann/lsh_table.h"
+                  timestampString = "486714101.96154"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "918">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LDFlann::lsh::LshTable&lt;unsigned char&gt;::LshTable(unsigned int, unsigned int)"
+                  moduleName = "LDFlann"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liang/Desktop/LDFlann/LDFlann/lsh_table.h"
+                  timestampString = "486714101.961766"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "938">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LDFlann::lsh::LshTable&lt;unsigned char&gt;::LshTable(unsigned int, unsigned int)"
+                  moduleName = "LDFlann"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liang/Desktop/LDFlann/LDFlann/lsh_table.h"
+                  timestampString = "486714101.961902"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "965">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LDFlann/lsh_table.h"
+            timestampString = "486721577.316182"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "452"
+            endingLineNumber = "452"
+            landmarkName = "LshTable(unsigned int feature_size, unsigned int subsignature_size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LDFlann::lsh::LshTable&lt;unsigned char&gt;::LshTable(unsigned int, unsigned int)"
+                  moduleName = "LDFlann"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liang/Desktop/LDFlann/LDFlann/lsh_table.h"
+                  timestampString = "486714101.963961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LDFlann::lsh::LshTable&lt;unsigned char&gt;::LshTable(unsigned int, unsigned int)"
+                  moduleName = "LDFlann"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liang/Desktop/LDFlann/LDFlann/lsh_table.h"
+                  timestampString = "486714101.964231"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "918">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LDFlann::lsh::LshTable&lt;unsigned char&gt;::LshTable(unsigned int, unsigned int)"
+                  moduleName = "LDFlann"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liang/Desktop/LDFlann/LDFlann/lsh_table.h"
+                  timestampString = "486714101.964458"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "938">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LDFlann::lsh::LshTable&lt;unsigned char&gt;::LshTable(unsigned int, unsigned int)"
+                  moduleName = "LDFlann"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liang/Desktop/LDFlann/LDFlann/lsh_table.h"
+                  timestampString = "486714101.964682"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "965">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

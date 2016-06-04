@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCDDB661D0174200026F896 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCDDB651D0174200026F896 /* main.cpp */; };
+		ECCDDB761D0174430026F896 /* libhdf5_hl.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCDDB6D1D0174430026F896 /* libhdf5_hl.6.dylib */; };
+		ECCDDB771D0174430026F896 /* libhdf5_hl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCDDB6E1D0174430026F896 /* libhdf5_hl.a */; };
+		ECCDDB781D0174430026F896 /* libhdf5_hl.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCDDB6F1D0174430026F896 /* libhdf5_hl.6.dylib */; };
+		ECCDDB791D0174430026F896 /* libhdf5.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCDDB711D0174430026F896 /* libhdf5.6.dylib */; };
+		ECCDDB7A1D0174430026F896 /* libhdf5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCDDB721D0174430026F896 /* libhdf5.a */; };
+		ECCDDB7B1D0174430026F896 /* libhdf5.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCDDB731D0174430026F896 /* libhdf5.6.dylib */; };
+		ECCDDB8F1D0192120026F896 /* flann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCDDB8E1D0192120026F896 /* flann.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECCDDB601D0174200026F896 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECCDDB621D0174200026F896 /* LDFlann */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LDFlann; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCDDB651D0174200026F896 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ECCDDB6D1D0174430026F896 /* libhdf5_hl.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhdf5_hl.6.dylib; path = ../../../../usr/local/hdf5/lib/libhdf5_hl.6.dylib; sourceTree = "<group>"; };
+		ECCDDB6E1D0174430026F896 /* libhdf5_hl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhdf5_hl.a; path = ../../../../usr/local/hdf5/lib/libhdf5_hl.a; sourceTree = "<group>"; };
+		ECCDDB6F1D0174430026F896 /* libhdf5_hl.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhdf5_hl.6.dylib; path = ../../../../usr/local/hdf5/lib/libhdf5_hl.6.dylib; sourceTree = "<group>"; };
+		ECCDDB701D0174430026F896 /* libhdf5_hl.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = libhdf5_hl.la; path = ../../../../usr/local/hdf5/lib/libhdf5_hl.la; sourceTree = "<group>"; };
+		ECCDDB711D0174430026F896 /* libhdf5.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhdf5.6.dylib; path = ../../../../usr/local/hdf5/lib/libhdf5.6.dylib; sourceTree = "<group>"; };
+		ECCDDB721D0174430026F896 /* libhdf5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhdf5.a; path = ../../../../usr/local/hdf5/lib/libhdf5.a; sourceTree = "<group>"; };
+		ECCDDB731D0174430026F896 /* libhdf5.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhdf5.6.dylib; path = ../../../../usr/local/hdf5/lib/libhdf5.6.dylib; sourceTree = "<group>"; };
+		ECCDDB741D0174430026F896 /* libhdf5.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = libhdf5.la; path = ../../../../usr/local/hdf5/lib/libhdf5.la; sourceTree = "<group>"; };
+		ECCDDB751D0174430026F896 /* libhdf5.settings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = libhdf5.settings; path = ../../../../usr/local/hdf5/lib/libhdf5.settings; sourceTree = "<group>"; };
+		ECCDDB7C1D0174910026F896 /* hdf5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hdf5.h; sourceTree = "<group>"; };
+		ECCDDB7D1D0174DA0026F896 /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		ECCDDB7E1D01757D0026F896 /* general.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = general.h; sourceTree = "<group>"; };
+		ECCDDB7F1D0175A70026F896 /* serialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = serialization.h; sourceTree = "<group>"; };
+		ECCDDB801D0175C90026F896 /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		ECCDDB811D01761C0026F896 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		ECCDDB821D0178BE0026F896 /* params.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = params.h; sourceTree = "<group>"; };
+		ECCDDB831D0178F60026F896 /* any.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = any.h; sourceTree = "<group>"; };
+		ECCDDB841D0179AF0026F896 /* saving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = saving.h; sourceTree = "<group>"; };
+		ECCDDB851D018F330026F896 /* all_indices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = all_indices.h; sourceTree = "<group>"; };
+		ECCDDB861D018F610026F896 /* nn_index.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nn_index.h; sourceTree = "<group>"; };
+		ECCDDB871D018F9B0026F896 /* result_set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = result_set.h; sourceTree = "<group>"; };
+		ECCDDB881D0190160026F896 /* dynamic_bitset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dynamic_bitset.h; sourceTree = "<group>"; };
+		ECCDDB891D0190650026F896 /* lsh_index.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lsh_index.h; sourceTree = "<group>"; };
+		ECCDDB8A1D0190B60026F896 /* heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
+		ECCDDB8B1D0190E10026F896 /* lsh_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lsh_table.h; sourceTree = "<group>"; };
+		ECCDDB8C1D0191100026F896 /* allocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allocator.h; sourceTree = "<group>"; };
+		ECCDDB8D1D0191320026F896 /* random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		ECCDDB8E1D0192120026F896 /* flann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flann.cpp; sourceTree = "<group>"; };
+		ECCDDB901D0193660026F896 /* dist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dist.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCDDB5F1D0174200026F896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCDDB771D0174430026F896 /* libhdf5_hl.a in Frameworks */,
+				ECCDDB7B1D0174430026F896 /* libhdf5.6.dylib in Frameworks */,
+				ECCDDB7A1D0174430026F896 /* libhdf5.a in Frameworks */,
+				ECCDDB781D0174430026F896 /* libhdf5_hl.6.dylib in Frameworks */,
+				ECCDDB761D0174430026F896 /* libhdf5_hl.6.dylib in Frameworks */,
+				ECCDDB791D0174430026F896 /* libhdf5.6.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCDDB591D0174200026F896 = {
+			isa = PBXGroup;
+			children = (
+				ECCDDB6C1D01742B0026F896 /* lib */,
+				ECCDDB641D0174200026F896 /* LDFlann */,
+				ECCDDB631D0174200026F896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCDDB631D0174200026F896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCDDB621D0174200026F896 /* LDFlann */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCDDB641D0174200026F896 /* LDFlann */ = {
+			isa = PBXGroup;
+			children = (
+				ECCDDB651D0174200026F896 /* main.cpp */,
+				ECCDDB7C1D0174910026F896 /* hdf5.h */,
+				ECCDDB7D1D0174DA0026F896 /* matrix.h */,
+				ECCDDB7E1D01757D0026F896 /* general.h */,
+				ECCDDB7F1D0175A70026F896 /* serialization.h */,
+				ECCDDB801D0175C90026F896 /* defines.h */,
+				ECCDDB811D01761C0026F896 /* config.h */,
+				ECCDDB821D0178BE0026F896 /* params.h */,
+				ECCDDB831D0178F60026F896 /* any.h */,
+				ECCDDB841D0179AF0026F896 /* saving.h */,
+				ECCDDB851D018F330026F896 /* all_indices.h */,
+				ECCDDB861D018F610026F896 /* nn_index.h */,
+				ECCDDB871D018F9B0026F896 /* result_set.h */,
+				ECCDDB881D0190160026F896 /* dynamic_bitset.h */,
+				ECCDDB891D0190650026F896 /* lsh_index.h */,
+				ECCDDB8A1D0190B60026F896 /* heap.h */,
+				ECCDDB8B1D0190E10026F896 /* lsh_table.h */,
+				ECCDDB8C1D0191100026F896 /* allocator.h */,
+				ECCDDB8D1D0191320026F896 /* random.h */,
+				ECCDDB8E1D0192120026F896 /* flann.cpp */,
+				ECCDDB901D0193660026F896 /* dist.h */,
+			);
+			path = LDFlann;
+			sourceTree = "<group>";
+		};
+		ECCDDB6C1D01742B0026F896 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				ECCDDB6D1D0174430026F896 /* libhdf5_hl.6.dylib */,
+				ECCDDB6E1D0174430026F896 /* libhdf5_hl.a */,
+				ECCDDB6F1D0174430026F896 /* libhdf5_hl.6.dylib */,
+				ECCDDB701D0174430026F896 /* libhdf5_hl.la */,
+				ECCDDB711D0174430026F896 /* libhdf5.6.dylib */,
+				ECCDDB721D0174430026F896 /* libhdf5.a */,
+				ECCDDB731D0174430026F896 /* libhdf5.6.dylib */,
+				ECCDDB741D0174430026F896 /* libhdf5.la */,
+				ECCDDB751D0174430026F896 /* libhdf5.settings */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCDDB611D0174200026F896 /* LDFlann */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCDDB691D0174200026F896 /* Build configuration list for PBXNativeTarget "LDFlann" */;
+			buildPhases = (
+				ECCDDB5E1D0174200026F896 /* Sources */,
+				ECCDDB5F1D0174200026F896 /* Frameworks */,
+				ECCDDB601D0174200026F896 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDFlann;
+			productName = LDFlann;
+			productReference = ECCDDB621D0174200026F896 /* LDFlann */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCDDB5A1D0174200026F896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "梁栋";
+				TargetAttributes = {
+					ECCDDB611D0174200026F896 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = ECCDDB5D1D0174200026F896 /* Build configuration list for PBXProject "LDFlann" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECCDDB591D0174200026F896;
+			productRefGroup = ECCDDB631D0174200026F896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCDDB611D0174200026F896 /* LDFlann */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCDDB5E1D0174200026F896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCDDB661D0174200026F896 /* main.cpp in Sources */,
+				ECCDDB8F1D0192120026F896 /* flann.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECCDDB671D0174200026F896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECCDDB681D0174200026F896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECCDDB6A1D0174200026F896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/hdf5/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/hdf5/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECCDDB6B1D0174200026F896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/hdf5/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/hdf5/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCDDB5D1D0174200026F896 /* Build configuration list for PBXProject "LDFlann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCDDB671D0174200026F896 /* Debug */,
+				ECCDDB681D0174200026F896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCDDB691D0174200026F896 /* Build configuration list for PBXNativeTarget "LDFlann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCDDB6A1D0174200026F896 /* Debug */,
+				ECCDDB6B1D0174200026F896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCDDB5A1D0174200026F896 /* Project object */;
+}
